@@ -4,3 +4,4 @@ A simple Flask-based To-Do List App where users can add tasks along with a sched
 ## 🚀 Features
 
 ✅ Add tasks with a specific time
+✅ View all tasks in a structured list
