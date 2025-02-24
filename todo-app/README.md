@@ -9,3 +9,18 @@ A simple Flask-based To-Do List App where users can add tasks along with a sched
 ✅ Delete tasks when completed
 ✅ Uses Flask (Python) and SQLite for storage
 ✅ Simple and user-friendly UI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
