@@ -14,5 +14,7 @@ A simple Flask-based To-Do List App where users can add tasks along with a sched
 ✅ Simple and user-friendly UI
 
 
+## 🖥️ Installation & Setup
+Follow these steps to set up and run the project:
 
 
