@@ -24,3 +24,9 @@ cd todo-list-app
 2️⃣ Install Dependencies
 Make sure you have Python 3 installed, then install Flask:
 ```
+3️⃣ Run the App
+```
+python app.py
+```
+After running, open http://127.0.0.1:5000/ in your browser.
+
