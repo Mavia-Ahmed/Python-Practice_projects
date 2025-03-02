@@ -30,6 +30,7 @@ Make sure you have Python 3 installed, then install Flask:
 python app.py
 ```
 After running, open http://127.0.0.1:5000/ in your browser.
+```
 
 
 ## 📂 Project Structure
