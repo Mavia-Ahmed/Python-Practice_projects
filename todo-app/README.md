@@ -1,6 +1,7 @@
 # 📝 To-Do List App with Time Scheduling
 A simple Flask-based To-Do List App where users can add tasks along with a scheduled time. This app stores tasks in an SQLite database and allows users to view and manage their tasks efficiently.
 
+
 ## 🚀 Features
 
 ✅ Add tasks with a specific time
@@ -29,4 +30,18 @@ Make sure you have Python 3 installed, then install Flask:
 python app.py
 ```
 After running, open http://127.0.0.1:5000/ in your browser.
+
+
+## 📂 Project Structure
+```
+📂 todo-list-app/
+ ├── app.py          # Main Flask app
+ ├── templates/
+ │   ├── index.html  # HTML frontend
+ │   ├── add_task.html  # Task input page
+ ├── static/
+ │   ├── style.css   # CSS styles
+ ├── todo.db         # SQLite database (auto-generated)
+ ├── README.md       # Project documentation
+```
 
