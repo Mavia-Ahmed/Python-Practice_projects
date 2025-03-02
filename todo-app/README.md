@@ -21,4 +21,6 @@ Follow these steps to set up and run the project:
 git clone https://github.com/yourusername/todo-list-app.git
 cd todo-list-app
 ```
-
+2️⃣ Install Dependencies
+Make sure you have Python 3 installed, then install Flask:
+```
