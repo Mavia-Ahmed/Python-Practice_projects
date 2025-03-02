@@ -127,5 +127,36 @@ button {
 ```
 
 
+### 🖥️ Frontend (templates/index.html)
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>📝 To-Do List</h1>
+    <form action="/add" method="POST">
+        <input type="text" name="task" placeholder="Enter task" required>
+        <input type="time" name="time" required>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <ul class="task-list">
+        {% for task in tasks %}
+        <li class="task">
+            {{ task[1] }} - {{ task[2] }} 
+            <a href="/delete/{{ task[0] }}"><button>Delete</button></a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+```
+
+
 
 
