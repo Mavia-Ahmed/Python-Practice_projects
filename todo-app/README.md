@@ -99,4 +99,33 @@ if __name__ == "__main__":
 ```
 
 
+### 🎨 CSS Styling (static/style.css)
+```
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+.task {
+    padding: 10px;
+    margin: 5px;
+    background: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+```
+
+
+
 
